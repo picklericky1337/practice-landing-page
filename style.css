@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    display: flex;
+    padding: 16px 200px;
+    background: #5a9cb1;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.content {
+    flex: 1;
+    padding: 0 200px;
+}
+
+.footer {
+    color: #fff;
+    background-color:darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 200px;
+}

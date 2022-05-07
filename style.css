@@ -51,12 +51,6 @@ ul {
     display: flex;
 }
 
-.block1 {
-    padding: 0 200px;
-    height: 250px;
-    display: flex; 
-}
-
 .block2, .block3 {
     padding: 0 200px;
     height: 250px;
@@ -74,8 +68,11 @@ img.banner {
 
 .banner-right {
     width: 150px;
+}
 
 .block1 {
+    height: 250px;
+    display: flex; 
     padding: 25px 200px;
     flex-direction: column;
     align-items: center;
@@ -83,6 +80,10 @@ img.banner {
 
 .icon-grid {
     display: flex;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    
 }
 
 .block2 {

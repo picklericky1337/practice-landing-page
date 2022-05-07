@@ -46,9 +46,18 @@ ul {
 
 .banner {
     background-color: #5a9cb1;
+    padding: 0px 200px 100px 200px;
+    height: 250px;
+    display: flex;
 }
 
-.banner, .block1, .block2, .block3 {
+.block1 {
+    padding: 0 200px;
+    height: 250px;
+    display: flex; 
+}
+
+.block2, .block3 {
     padding: 0 200px;
     height: 250px;
     display: flex;
@@ -58,6 +67,13 @@ ul {
     font-size: 32px;
     font-weight: bold;
 }
+
+img.banner {
+/*    width: 100%;*/
+}
+
+.banner-right {
+    width: 150px;
 
 .block1 {
     padding: 25px 200px;
